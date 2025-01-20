@@ -136,6 +136,7 @@ header {
 img {
     width: 400px;
     height: 400px;
+    border-radius: 10px;
 }
 
 .top-corner-image{
@@ -145,6 +146,7 @@ img {
     width: 150px;
     height: auto;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .chessboard-image{
@@ -154,6 +156,7 @@ img {
     width: 40%;
     height: auto;
     margin-top: -130px;
+    border-radius: 10px;
 }
 .physchessboard-image{
     position: absolute;
@@ -162,6 +165,7 @@ img {
     width: 40%;
     height: auto;
     margin-top: -130px;
+    border-radius: 10px;
 }
 .team-member-name{
     position: absolute;
