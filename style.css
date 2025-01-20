@@ -239,7 +239,7 @@ p {
     font-size: 5vh;
     transition: background-color 0.3s;
 }
-.container download-button{
+.container .download-button{
     display: flex;
     justify-content: center;
     align-items: center;
