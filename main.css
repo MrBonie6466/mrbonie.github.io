@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; margin: 0;
+    padding: 1px;
+}
+
+button {
+    background-color: #012643; border: none;
+}
+
+header {
+    margin: auto;
+    height: 100px;
+}
+
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.largecontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.seperate-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    margin: 50px auto auto;
+    background-color: #fff;
+}
+.triple-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    margin: 30px auto auto;
+    background-color: #fff;
+    flex-direction: row;
+}
+
+#header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.nav-link {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+}
+.nav-link:hover {
+    color: #ffcc00;
+}
+
+.midcontainer {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.midcontainer h5{
+    margin-bottom: 10px;
+}
+
+.blue-rectangle{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-color: #033056;
+}
+
+.left-section {
+    width: 45%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+.left-section p {
+    margin: 0;
+    display: inline-block;
+}
+.left-section h5{
+    margin-top: 0;
+}
+.right-section {
+    width: 45%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+.right-section p {
+    margin: 0;
+    display: inline-block;
+}
+.right-section h5{
+    margin-top: 0;
+}
+.trileft-section {
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 70vh;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    margin: auto 10px 50px auto;
+}
+.trileft-section h3 {
+    text-align: center;
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+img {
+    width: 400px;
+    height: 400px;
+}
+
+.top-corner-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: auto;
+    margin: 10px;
+}
+
+.chessboard-image{
+    position: absolute;
+    top: auto;
+    left: 55%;
+    width: 40%;
+    height: auto;
+    margin-top: -130px;
+}
+.physchessboard-image{
+    position: absolute;
+    top: auto;
+    left: 5%;
+    width: 40%;
+    height: auto;
+    margin-top: -130px;
+}
+.team-member-name{
+    position: absolute;
+    top: auto;
+    left: 5%;
+    width: 25%;
+    height: auto;
+    margin: 0;
+    background-color: #0066cc;
+}
+h5 {
+    text-align: center;
+    color: darkgray;
+    font-family: Montserrat, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 100px;
+}
+
+h2{
+    text-align: center;
+    color: grey;
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h4{
+    text-align: center;
+    color: dimgrey;
+    font-family: Montserrat, sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+h6 {
+
+    text-align: center;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.5;
+    color: #666;
+}
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
