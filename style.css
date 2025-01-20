@@ -100,7 +100,7 @@ header {
 .trileft-section {
     justify-content: center;
     align-items: flex-end;
-    width: auto;
+    width: 30%;
     height: auto;
     padding: 20px;
     background-color: whitesmoke;
@@ -120,7 +120,7 @@ header {
 .triright-section {
     justify-content: center;
     align-items: flex-end;
-    width: auto;
+    width: 30%;
     height: auto;
     padding: 20px;
     background-color: whitesmoke;
